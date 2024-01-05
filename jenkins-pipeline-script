@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Checkout'){
             steps{
-                git branch: 'main', url: 'https://github.com/sm2424/Start-Stop-Ec2-Ansible.git'
+                git branch: 'main', url: 'https://github.com/cloudmanoj/Start-Stop-Ec2-Ansible.git'
             }
         }
         stage('Ansible provision') {
